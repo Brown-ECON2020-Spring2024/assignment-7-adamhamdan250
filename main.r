@@ -13,5 +13,6 @@ source("./code/make_tables.r")
 source("./code/make_figures.r")
 
 ## Run Tests
+library(testdat)
 testthat::local_edition(3)
 testthat::test_dir("tests")
